@@ -1,0 +1,17 @@
+div{
+  text-align: center;
+}
+
+#main{
+  margin-top: 10vh;
+  margin-bottom: 200vh;
+}
+
+body::-webkit-scrollbar{
+  display:none;
+}
+
+html{
+  /*スクロールバー非表示（Firefox）*/
+  scrollbar-width: none;
+}

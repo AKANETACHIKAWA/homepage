@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <title>むりなんだい２</title>
+  </head>
+  <body>
+  <center>
+    <img src="phantom1.png"><br>謎を作ったもののウィルスのせいで画像データが破壊されてしまった。<br>デバッガーのコメントを元に答えを導こう<br>
+    
+
+  <div style="text-align:center;">
+<form name="f3">
+  <input name="ans3" placeholder="ひらがなで入力"><input type="text" name="dummy" style="display:none;">
+  <input type="button" value="解答" class="btn btn_primary" onclick="kotae3()" >
+</form>
+  <div id="disp">不正解</div>
+<br><br>
+    デバッガー１　解答：いきどまりよめ　<br>コメント：迷路にてこずって、次のステップまでいけませんでした。とりあえず出た指示を解答にしておきます。<br>「うせつは４回まで」という制約が難しかった。<br><br>
+    デバッガー２　解答：スゴてか　<br>コメント：バグでしょうか、迷路もサクサク解けた気がしたのですが答えになりません。<br>あと迷路の下にあるスペースが黒くて読めないんですがそこに何か書いてあったんでしょうか？<br><br>
+    デバッガー３　解答：よすめ　<br>コメント：迷路がファイル欠損なのか左下の区画が見えなくて、だいぶメタったけどこれが限界。<br>欠損部にいくつか行き止まりがあるんだろうけど……<br><Br>
+    デバッガー４　解答：スごいんゴ　<br>コメント：画像の下半分が全く見えなくてとりあえず壁を無視して横一直線に進みました。<br>デバッグ頼む前にしっかり確認してください。あなたはいつもそうだ<br><Br>
+    デバッガー４　解答：ス　<Br>コメント：左上の隅っこしか見えないんですけどなんなんですか？怪異の類ですか？<br><br>
+    デバッガー５　解答：？　<br>コメント：真っ黒で何も見えません！
+  </div>
+  </center> 
+<script type="text/javascript">
+  document.getElementById("disp").style.display="none";
+  function kotae3(){
+    if((f3.ans3.value == "すごうで")||(f3.ans3.value == "スゴうで")) location.href='https://akanetachikawa.web.fc2.com/murijanai.html',document.getElementById("disp").style.display="none";
+    else
+    f3.ans3.value=null,document.getElementById("disp").style.display="block";
+  }
+</script>
+</body>
+</html>

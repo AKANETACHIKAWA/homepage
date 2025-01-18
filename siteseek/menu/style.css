@@ -1,0 +1,59 @@
+html {
+  overflow: hidden;
+  height: 100%;
+  background-color: #F4FEF7;
+}
+
+body {
+  margin: 0 8px;
+  height: 100%;
+}
+
+.grid-wrapper{
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 15% 85%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.header {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+.headerimg{
+  width: 70%;
+}
+
+.headerimg > img{
+  width: 100%;
+}
+
+#left {
+  border-right: 2px solid black;
+}
+
+#shoki {
+  display: none !important;
+}
+
+#left a {
+  display: block;
+}
+
+#right {
+  overflow: auto;
+  padding-left: 4%;
+  padding-bottom: 4%;
+}
+
+.menuimg {
+  display: block;
+  width: 50%;
+}

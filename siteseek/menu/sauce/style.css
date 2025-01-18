@@ -1,0 +1,17 @@
+html {
+  height: 100%;
+  background-color: #F4FEF7;
+}
+
+body {
+  margin: 0 8px;
+  height: 100%;
+}
+
+.imgwrapper {
+  width: 50%;
+}
+
+.menuimg {
+  width: 100%;
+}

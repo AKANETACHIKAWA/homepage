@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>Mayuber Eats</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <!----- header----->
+ <!-- <header><img class="headerimg" src="eatslogo.png"></header> -->
+ <!----- /header ----->
+ 
+ <!----- main ----->
+  <h2>ソース選択</h2>
+  <div class="imgwrapper">
+    <img class="menuimg" src="../img/burger/makanai.png">
+  </div>
+  <p>※開発中のためソースの閲覧は禁止します</p>
+  <div class="sauce">
+    <select>
+      <option>▼ソースを選択</option>
+      <option>バーベキュー</option>
+      <option>クラシック</option>
+      <option>ガーリック</option>
+      <option>イタリアン</option>
+    </select>
+  </div>
+  <div class="submit">
+    <form name="code_form">
+      <p>クーポンコード入力（カタカナで入力してください）</p>
+      <input type="text" name="code">
+      <input type="submit" value="送信" onClick="return check();">
+    </form>
+  </div>
+
+ <!----- /main ----->
+
+
+
+
+  <script src="main.js"></script>
+ </body>
+</html>

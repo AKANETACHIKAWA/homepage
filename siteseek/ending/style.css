@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+  text-align: center;
+}
+
+body {
+  margin: 0 8px;
+  height: 100%;
+  background-color: black;
+  color:white ;
+}
+
+a {
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.imgwrapper {
+  width: 70%;
+  margin: 8px auto;
+  display: block;
+}
+
+.clear {
+  width: 100%;
+}
+
+.textwrapper {
+  margin: 0 8px;
+  text-align: left;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+ <meta charset="utf-8">
+ <title>Mayuber Eats</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+ <!----- header----->
+ <!-- <header><img class="headerimg" src="eatslogo.png"></header> -->
+ <!----- /header ----->
+ 
+ <!----- main ----->
+  <h2>トッピングカスタム</h2>
+  <div class="imgwrapper">
+    <img class="menuimg" src="../img/burger/makanai.png">
+  </div>
+  <div>
+    <form name="topping_form">
+      <table>
+        <tr>
+          <td>
+            <a>MC（モッツァレラチーズ）</a>
+          </td>
+          <td>
+            <input type="radio" name="MC" id="MCo" checked/><label for="MCo">有</label>
+            <input type="radio" name="MC" id="MCx"/><label for="MCx">無</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a>BL（ブルーレタス）</a>
+          </td>
+          <td>
+            <input type="radio" name="BL" id="BLo" checked/><label for="MCo">有</label>
+            <input type="radio" name="BL" id="BLx"/><label for="MCx">無</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a>ID（イタリアンドライトマト）</a>
+          </td>
+          <td>
+            <input type="radio" name="ID" id="IDo" checked/><label for="MCo">有</label>
+            <input type="radio" name="ID" id="IDx"/><label for="MCx">無</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <a>KO（噛みつきオニオン）</a>
+          </td>
+          <td>
+            <input type="radio" name="KO" id="KOo" checked/><label for="MCo">有</label>
+            <input type="radio" name="KO" id="KOx"/><label for="MCx">無</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+           <input type="button" value="送信" id="submit" onclick="return check();">
+          </td>
+        </tr>
+      </table>
+    </form>  
+  </div>
+
+ <!----- /main ----->
+
+
+
+
+  <script src="main.js"></script>
+ </body>
+</html>

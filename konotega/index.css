@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+  text-align: center;
+}
+
+.hint-detail {
+  padding-bottom: 100px;
+}
+
+summary {
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.mv-wrapper {
+  width: 70%;
+  margin: auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+/* スマホ用のCSSはメディアクエリの外に記述する */
+
+@media screen and (min-width: 481px) {
+	/* 481px以上に適用されるCSS（タブレット用） */
+  .body-wrapper {
+    width: 480px;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 960px) {
+	/* 960px以上に適用されるCSS（PC用） */
+  .body-wrapper {
+    width: 600px;
+    margin: auto;
+  }
+}

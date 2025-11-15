@@ -3,15 +3,6 @@ html {
   text-align: center;
 }
 
-.hint-detail {
-  padding-bottom: 100px;
-}
-
-summary {
-  margin-top: 1rem;
-  margin-bottom: 0.3rem;
-}
-
 .mv-wrapper {
   width: 70%;
   margin: auto;
